@@ -1,0 +1,15 @@
+1. Git-scm 설치
+   https://git-scm.com/download/win
+
+2. Git 연동방법(조건 : 관리자 권한으로 실행)
+   시작 => 실행 => cmd(명령 프롬포트 실행)
+   git config --global user.email "이메일"
+   git config --global user.name "이름"
+
+
+3. Git에 파일 저장
+   경로 설정 후(파일이 포함되있는 폴더) 
+   git add "파일명"
+   git commit -m "Add Text File ["파일명"]
+   git push
+
